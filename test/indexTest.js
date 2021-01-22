@@ -69,8 +69,8 @@ describe("index.js", () => {
     expect(name).to.equal("Kermit")
     expect(color).to.exist
     expect(color).to.equal("green")
-    expect(song).to.exist
-    expect(song).to.equal("The Rainbow Connection")
+    expect(song_1).to.exist
+    expect(song_1).to.equal("The Rainbow Connection")
     expect(job).to.exist
     expect(job).to.equal("Host of The Muppet Show")
     expect(partner).to.exist
@@ -82,9 +82,9 @@ describe("index.js", () => {
     expect(song_2).to.equal("Moving Right Along")
     expect(song_4).to.exist
     expect(song_4).to.equal("I Hope That Something Better Comes Along")
-    expect(k_job).to.exist
-    expect(k_job).to.equal("Host of The Muppet Show")
-    expect(k_partner).to.exist
-    expect(k_partner).to.equal("Miss Piggy")
+    expect(job).to.exist
+    expect(job).to.equal("Host of The Muppet Show")
+    expect(partner).to.exist
+    expect(partner).to.equal("Miss Piggy")
   })
 })
